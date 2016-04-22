@@ -25,6 +25,7 @@ dlQueue.stopJobExec();  //stop execution
 *  implement timeout behavior e.g.  if request takes too long
 *  implement unit tests
 *  abstract out dl execution(e.g.  make this generic so it just a task queue)
+*  more defensive checks
 
 
 ## License 

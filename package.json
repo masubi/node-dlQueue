@@ -26,7 +26,7 @@
     "url": "git@github.com:masubi/node-dlQueue.git"
   },
   "keywords": [
-    "wc"
+    "node-dlQueue"
   ],
   "engines": {
     "node": ">= 0.8.0"
