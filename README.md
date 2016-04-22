@@ -7,6 +7,7 @@ node-dlQueue: (https://github.com/masubi/node-dlQueue).  There maybe some
 unstated limitations.
 
 ## Usage
+```javascript
 var dlQueue = new DlQueueClass();
 var success = function(body){
     console.log("data: "+body);
@@ -18,6 +19,7 @@ dlQueue.submitTask("www.google.com", success, fail);
 dlQueue.submitTask("www.yahoo.com", success, fail);
 dlQueue.startJobExec(); //start execution
 dlQueue.stopJobExec();  //stop execution
+```
 
 ## Install
 
