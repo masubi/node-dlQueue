@@ -16,7 +16,8 @@ var fail = function(){
 }
 dlQueue.submitTask("www.google.com", success, fail);
 dlQueue.submitTask("www.yahoo.com", success, fail);
-dlQueue.startJobExec();
+dlQueue.startJobExec(); //start execution
+dlQueue.stopJobExec();  //stop execution
 
 ## Install
 
