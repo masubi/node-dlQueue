@@ -21,11 +21,6 @@ dlQueue.startJobExec(); //start execution
 dlQueue.stopJobExec();  //stop execution
 ```
 
-## Install
-
-* npm install .
-* npm link
-
 ## TODO's
 *  implement timeout behavior e.g.  if request takes too long
 *  implement unit tests
