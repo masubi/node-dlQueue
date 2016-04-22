@@ -1,0 +1,36 @@
+{
+  "name": "node-dlQueue",
+  "version": "0.0.1",
+  "description": "node-dlQueue",
+  "main": "index.js",
+  "bin": {
+    "node-dlQueue":"lib/node-dlQueue.js"
+  },
+  "scripts": {
+    "test": "make test-all",
+    "blanket": { 
+      "pattern": "//^((?!(node_modules|test)).)*$/",
+      "data-cover-flags": {
+        "debug": false
+      }
+    }
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:masubi/node-dlQueue.git"
+  },
+  "keywords": [
+    "wc"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "author": "masubi",
+  "license": "MIT"
+}
